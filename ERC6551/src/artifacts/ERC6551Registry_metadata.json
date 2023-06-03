@@ -1,0 +1,201 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InitializationFailed",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					}
+				],
+				"name": "AccountCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					}
+				],
+				"name": "account",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chainId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "initData",
+						"type": "bytes"
+					}
+				],
+				"name": "createAccount",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC6551Registry.sol": "ERC6551Registry"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC6551Registry.sol": {
+			"keccak256": "0x04e787a34fb67ddef238a38d8da7856ef4f855510b1e0777c46655235fe34168",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cee0b2ea9a5d5b1aeecf6b7f69919f88348364d93bc08193de4f67cfa6e1bed9",
+				"dweb:/ipfs/QmX12kLvqoPSdTfgezsGSD5hAcncwQ7oRWyYMPJFzvhBwQ"
+			]
+		},
+		"interfaces/IERC6551Registry.sol": {
+			"keccak256": "0x21b92c54425a2f5e2596624cea3dab9acad2bafd0732459160cc302868a2b16e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77ac3d403de4a261a8f79cbe6fcd8a0b2616c5e40f624320c2d0f01b149e5e4d",
+				"dweb:/ipfs/QmRptNLUkfpxiVXW8V3vxc3yxUcrQAA7DFetnz3iyRxnEs"
+			]
+		},
+		"lib/ERC6551BytecodeLib.sol": {
+			"keccak256": "0xa318f11a48b3ef8c8ffb874925dea296092794fdc004a959b068bf6c3b14d426",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01a677c30b55306463b56fae67398f1b0b63590c291c1dd99e8d221f11f6cfff",
+				"dweb:/ipfs/QmQTYSFqkvKf5vnQzcE4zBJcnGMKyVDfxCPqropWhzmTCr"
+			]
+		},
+		"openzeppelin-contracts/utils/Create2.sol": {
+			"keccak256": "0xf35335925904418fa03f87f35feddc196c7fd2b4d6397a1c45c427085cee3707",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a34e0ddd064ea21dbde3d25c614d5966ba26accba2e94029044f5aa38cc9bfdd",
+				"dweb:/ipfs/QmQyB5mjtKGzKz2e3bsEYyS7Ri4YPP81jvwF3hBMvEfL3r"
+			]
+		}
+	},
+	"version": 1
+}
